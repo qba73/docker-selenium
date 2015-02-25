@@ -1,5 +1,5 @@
 # Version 0.0.1
-FROM Ubuntu:14.04.2
+FROM ubuntu
 MAINTAINER Jakub Jarosz "qba73@postpro.net"
 
 RUN echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main " > /etc/apt/sources.list.d/jdk.list \
