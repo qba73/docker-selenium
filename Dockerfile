@@ -1,4 +1,4 @@
-# Version 0.0.1
+# Version 0.1.0
 FROM ubuntu
 MAINTAINER Jakub Jarosz "qba73@postpro.net"
 
