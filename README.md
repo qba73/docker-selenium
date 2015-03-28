@@ -1,4 +1,3 @@
-# docker-base-java
+# docker-base-selenium
 
-Base image for testing tools that require java.
-
+Docker base image for Selenium/WebDriver remote server.
