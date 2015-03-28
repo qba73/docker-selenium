@@ -10,6 +10,7 @@ RUN echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true 
 RUN apt-get update \
     && apt-get install -y \
 	build-essential \
+        wget \
 	oracle-java7-installer \
 	oracle-java7-set-default \
     && update-java-alternatives -s java-7-oracle \
