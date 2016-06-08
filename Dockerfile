@@ -1,6 +1,6 @@
 # Version 0.1.0
 FROM ubuntu
-MAINTAINER Jakub Jarosz "qba73@postpro.net"
+MAINTAINER Jakub Jarosz "jakub.jarosz@postpro.net"
 
 RUN echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main " > /etc/apt/sources.list.d/jdk.list \
     && apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
